@@ -22,19 +22,18 @@ class _InputPageState extends State<InputPage> {
           ),
         ),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'Hello App!',
-            ),
-            RaisedButton(
-              onPressed: () {},
-              child: Text('Caclulate my savings!'),
-            ),
-          ],
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Image.network('https://i.imgur.com/pgB5P0E.png'),
+          Text(
+            'Hello App!',
+          ),
+          RaisedButton(
+            onPressed: () {},
+            child: Text('Caclulate my savings!'),
+          ),
+        ],
       ),
     );
   }
