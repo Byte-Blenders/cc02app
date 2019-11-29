@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-// This page is contains the input-page where the customer will enter their data
-// for transportation and volume questions. They can start the calculations from
-// this screen.
+// This page is contains the results-page where the customer will recieve the calculated
+// results for their input.
 // TODO build the UI for results page.
 
 class ResultsPage extends StatefulWidget {
